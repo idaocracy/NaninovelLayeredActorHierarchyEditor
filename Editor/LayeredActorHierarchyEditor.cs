@@ -81,10 +81,7 @@ public static class LayeredActorHierarchyEditor
 
     private static void AddCompositionMap()
     {
-        // Get the serialized object
         SerializedObject serializedObject = new SerializedObject(selection.GetComponentInParent<LayeredActorBehaviour>());
-
-        // Focus on the property
         EditorGUIUtility.PingObject(serializedObject.targetObject);
         Selection.activeObject = serializedObject.targetObject;
 
@@ -131,7 +128,7 @@ public static class LayeredActorHierarchyEditor
 
         bool isDisabled = childRenderers.All(s => !s.enabled);
         if (selectedType == LayeredObjectType.Root) GUI.color = isDisabled ? Color.red : Color.white;
-        else GUI.color = isDisabled && (selection.AnyOtherGroupRendererEnabled() != 1) ? Color.red : Color.white;
+        else GUI.color = isDisabled ? Color.red : Color.white;
 
         DrawIcon(minusIcon, iconIndex:3, onClick:onMinus);
     }
