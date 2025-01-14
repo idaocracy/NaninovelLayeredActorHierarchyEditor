@@ -12,5 +12,5 @@ Found this extension useful? This extension was made during my spare time so any
 ## Installation
 
 1. In Unity's Package Manager, click the plus sign and navigate to *Add package from git URL...*. If you don't have git installed, install it and restart the computer.
-2. Type in https://github.com/idaocracy/com.idaocracy.naninovellayeredactorhierarchyeditor.git and it should install automatically. 
+2. Type in https://github.com/idaocracy/NaninovelLayeredActorHierarchyEditor.git and it should install automatically. 
 3. You are done! The editor should activate automatically when editing any Layered Character or Background in prefab mode.
