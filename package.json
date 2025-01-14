@@ -1,0 +1,12 @@
+{
+  "name": "com.idaocracy.naninovellayeredactorhierarchyeditor",
+  "version": "1.0.0",
+  "displayName": "Naninovel Layered Actor Hierarchy Editor",
+  "description": "Layered Actor Hierarchy Editor for Naninovel",
+  "unity": "2019.4",
+  "author": {
+    "name": "Idaocracy",
+    "url": "https://github.com/Idaocracy"
+  },
+  "hideInEditor": false
+}
